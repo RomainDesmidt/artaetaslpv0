@@ -1,1 +1,58 @@
 // Specific CSS for your home-page
+body {
+  background-image: image-url('bg.jpg');
+}
+
+.aa-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.aa-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  width: 95%;
+}
+
+.aa-flexitem {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.aa-flexitem svg {
+  width: 50%;
+}
+
+.aa-flexitem form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.aa-flexitem form input {
+  padding: 9px 9px;
+  width: 60%;
+}
+
+.readable-margin {
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.aa-flexitem form a {
+  background-color: #4492C9;
+  color: #ffffff !important;
+  padding: 12px 12px;
+}
+
+
+@media (min-width: 576px) {
+
+.aa-container {
+  width: 570px;
+}
+
+}
