@@ -80,13 +80,17 @@ body {
 }
 
 .aa-form-right {
- border-bottom-right-radius: 2px;
- border-top-right-radius: 2px;
+ border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
 }
 
 .aa-form-left {
- border-bottom-left-radius: 2px;
- border-top-left-radius: 2px;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+ border-right: 0px;
+ border-style: solid;
+ border-width: 1px;
+ border-color: lightgray;
 }
 
 .aa-paragraphe {
