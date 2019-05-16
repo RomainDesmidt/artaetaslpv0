@@ -1,6 +1,10 @@
 // Specific CSS for your home-page
 body {
   background-image: image-url('bg.jpg');
+  font-family: 'Roboto', sans-serif;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .aa-bg {
@@ -26,6 +30,10 @@ body {
   width: 50%;
 }
 
+.aa-flexitem img {
+  width: 75%;
+}
+
 .aa-flexitem form {
   display: flex;
   justify-content: center;
@@ -46,6 +54,14 @@ body {
   background-color: #4492C9;
   color: #ffffff !important;
   padding: 12px 12px;
+}
+
+// .aa-roboto {
+//   font-family: 'Roboto', sans-serif;
+// }
+
+.aa-row {
+  padding: 0px 15px;
 }
 
 
