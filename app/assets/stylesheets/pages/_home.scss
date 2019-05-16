@@ -67,16 +67,34 @@ body {
 //   font-family: 'Roboto', sans-serif;
 // }
 
-.aa-row {
+// .aa-row {
+//   padding: 0px 22px;
+// }
+
+.aa-padding-text {
   padding: 0px 22px;
 }
 
-.aa-form {
- border-radius: 2px;
+.aa-form-right {
+ border-bottom-right-radius: 2px;
+ border-top-right-radius: 2px;
+}
+
+.aa-form-left {
+ border-bottom-left-radius: 2px;
+ border-top-left-radius: 2px;
 }
 
 .aa-paragraphe {
   margin-bottom: 20px;
+}
+
+.aa-bg-black {
+  background-color: black;
+}
+
+.aa-fittovideo {
+  height: 400px;
 }
 
 @media (min-width: 576px) {
