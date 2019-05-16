@@ -40,7 +40,7 @@ body {
 .aa-flexitem form {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 
 .aa-flexitem form input {
@@ -49,8 +49,8 @@ body {
 }
 
 .readable-margin {
- margin-top: 50px;
- margin-bottom: 50px;
+ margin-top: 26px;
+ margin-bottom: 26px;
 }
 
 .aa-flexitem form a {
@@ -64,9 +64,16 @@ body {
 // }
 
 .aa-row {
-  padding: 0px 15px;
+  padding: 0px 22px;
 }
 
+.aa-form {
+ border-radius: 2px;
+}
+
+.aa-paragraphe {
+  margin-bottom: 20px;
+}
 
 @media (min-width: 576px) {
 
