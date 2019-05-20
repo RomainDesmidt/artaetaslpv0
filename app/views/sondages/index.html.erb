@@ -1,0 +1,11 @@
+<div class="aa-bg">
+  <div class="aa-container">
+    <div class="aa-row">
+    <h1>Liste des Emails</h1>
+    <% @sondages.each do |sondage| %>
+      <h2><%= sondage.email %></h2><br>
+      <%= sondage.created_at %>
+    <% end %>
+    </div>
+  </div>
+</div>
