@@ -2,3 +2,10 @@ iframe > .vp-portrait {
   display: none !important;
 }
 
+[class*="button_pin"], [class*="_save"]  {
+  height: 28px;
+  width: 73px !important;
+  border-radius: 5px !important;
+  text-indent: 0px !important;
+  padding: 3px 0px 0px 0px !important;
+}

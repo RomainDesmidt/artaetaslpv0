@@ -44,6 +44,11 @@ body {
   margin-bottom: 32px;
 }
 
+.aa-secondflex {
+  display: flex;
+  justify-content: center;
+}
+
 .aa-flexitem form input {
   padding: 9px 9px;
   width: 60%;
@@ -54,7 +59,7 @@ body {
  margin-bottom: 26px;
 }
 
-.aa-flexitem form a {
+.aa-flexitem a {
   // background-color: #4492C9;
   background: #4492C9; /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #29648d, #569ace); /* Chrome 10-25, Safari 5.1-6 */
