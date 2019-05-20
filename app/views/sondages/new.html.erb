@@ -14,7 +14,7 @@
 100 mises en avant offertes par tirage au sort la veille du lancement.</p>
       </div>
       <div class="aa-flexitem">
-        <form method="post" action="/sondages">
+        <form method="post" action="/">
          <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
           <input class="aa-form-left" type="text" name="sondage[email]" id="email" placeholder="Renseignez votre Email...">
           <button type="submit" class="aa-form-right"><%= svg 'ok' %> je m'inscris</button>
