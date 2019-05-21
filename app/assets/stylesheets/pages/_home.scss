@@ -97,6 +97,7 @@ body {
 .aa-form-right {
  border-bottom-right-radius: 5px;
  border-top-right-radius: 5px;
+ border-width: 0px;
 }
 
 .aa-form-left {
@@ -189,11 +190,15 @@ height: 100%;
 button:focus
 {
     outline:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 button
 {
     outline:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 
@@ -230,3 +235,5 @@ input[type="text"]
   padding: 20px !important;
 
 }
+
+
