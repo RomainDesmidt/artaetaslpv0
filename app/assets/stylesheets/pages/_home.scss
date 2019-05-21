@@ -171,7 +171,9 @@ body {
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
+// padding-top: 30px;
+height: 0;
+overflow: hidden;
 }
 
 .video-container iframe,
@@ -202,6 +204,22 @@ input[type="text"]
 
 .ssb-facebook {
  background-image: image-url('fb.png') !important;
+}
+
+.ssb-twitter {
+  background-image: image-url('tw.png') !important;
+}
+
+.ssb-pinterest {
+  background-image: image-url('pint.png') !important;
+}
+
+.ssb-linkedin {
+  background-image: image-url('in.png') !important;
+}
+
+.ssb-tumblr {
+ background-image: image-url('tumblr.png') !important;
 }
 
 
