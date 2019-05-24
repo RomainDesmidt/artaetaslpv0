@@ -16,8 +16,9 @@ window.SocialShareButton =
     title = encodeURIComponent(el.getAttribute("data-" + site + "-title") || $parent.getAttribute('data-title') || '')
     img = encodeURIComponent($parent.getAttribute("data-img") || '')
     url = encodeURIComponent($parent.getAttribute("data-url") || '')
-    via = encodeURIComponent($parent.getAttribute("data-via") || '')
+    via = encodeURIComponent($parent.getAttribute("data-via") || el.getAttribute("data-via") || '')
     desc = encodeURIComponent($parent.getAttribute("data-desc") || ' ')
+
 
     # tracking click events if google analytics enabled
     ga = window[window['GoogleAnalyticsObject'] || 'ga']
