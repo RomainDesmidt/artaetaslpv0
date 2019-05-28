@@ -11,9 +11,20 @@
         <p class="aa-padding-text"><%= if @sondage.errors[:email] == [] then "Merci de votre inscription, a bientôt !" else "Adresse email invalide!" end %></p>
       </div>
 
-      <div class="aa-flexitem aa-secondflex aa-paragraphe">
-      <%= social_share_button_tag("Decouvrez Artaetas, Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs", :image => "https://i.imgur.com/1b8bZ6h.jpg", :'data-twitter-hashtags' => "art,artaetas", :'via' => "artaetas", :'data-type' => 'photo', :url => "http://www.artaetas.com", desc: "It's time for art!", :'data-quote' => "Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs", :'data-summary' => "Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs")%>
+      <% if @sondage.errors[:email] == [] %>
+      <% then %>
+        <div class="aa-flexitem aa-secondflex aa-paragraphe">
+        <%= social_share_button_tag("Decouvrez Artaetas, Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs", :image => "https://i.imgur.com/1b8bZ6h.jpg", :'data-twitter-hashtags' => "art,artaetas", :'via' => "artaetas", :'data-type' => 'photo', :url => "http://www.artaetas.com", desc: "It's time for art!", :'data-quote' => "Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs", :'data-summary' => "Une plaforme d\'achat et vente d\'oeuvres d\'art de toutes catégories, dédiée aux artistes, amateurs et collectionneurs")%>
+        </div>
+      <% else %>
+      <div class="aa-flexitem">
+        <form method="get" action="/">
+          <button type="submit" class="aa-form-rl"><%= svg 'ok' %> Retour</button>
+        </form>
       </div>
+      <% end %>
+
+
 
       <!-- <div class="aa-flexitem aa-bg-black aa-border-vid"></div> -->
 
