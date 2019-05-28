@@ -2,10 +2,14 @@
   <div class="aa-container">
     <div class="aa-row">
     <h1>Liste des Emails</h1>
-    <% @sondages.each do |sondage| %>
-      <h2><%= sondage.email %></h2><br>
-      <%= sondage.created_at %>
-    <% end %>
+        <table style="width: 100%;">
+        <% @sondages.each do |sondage| %>
+        <tr class="">
+          <td align="center"><%= sondage.created_at.strftime("%d-%m-%Y %H:%M") %></td>
+          <td><%= sondage.email %></td>
+        </tr>
+        <% end %>
+        </table>
     </div>
   </div>
 </div>
